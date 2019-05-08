@@ -44,7 +44,7 @@ function setup() {
   display.position(10, 10);
 
   //createCanvas(800, 200);
-  target = 'to be or not to be';
+  target = 'test';
 
   population = [];
 

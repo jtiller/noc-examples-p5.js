@@ -52,7 +52,7 @@ function setup() {
   stats.class("stats");
 
   //createCanvas(640, 360);
-  target = "To be or not to be.";
+  target = "Sam Compressing some Flow";
   popmax = 200;
   mutationRate = 0.01;
 
