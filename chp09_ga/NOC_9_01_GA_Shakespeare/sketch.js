@@ -52,9 +52,9 @@ function setup() {
   stats.class("stats");
 
   //createCanvas(640, 360);
-  target = "Sam Compressing some Flow";
-  popmax = 200;
-  mutationRate = 0.01;
+  target = "To be or not to be.";
+  popmax = 250;
+  mutationRate = 0.03;
 
   // Create a population with a target phrase, mutation rate, and population max
   population = new Population(target, mutationRate, popmax);
@@ -73,6 +73,7 @@ function draw() {
   // If we found the target phrase, stop
   if (population.isFinished()) {
     //println(millis()/1000.0);
+    
     noLoop();
   }
 
