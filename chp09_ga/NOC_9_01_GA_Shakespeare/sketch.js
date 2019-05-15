@@ -52,8 +52,8 @@ function setup() {
   stats.class("stats");
 
   //createCanvas(640, 360);
-  target = "To be or not to be.";
-  popmax = 250;
+  target = "abcdefghijklmnopqrstuvwxyz";
+  popmax = 1000;
   mutationRate = 0.03;
 
   // Create a population with a target phrase, mutation rate, and population max
@@ -73,7 +73,7 @@ function draw() {
   // If we found the target phrase, stop
   if (population.isFinished()) {
     //println(millis()/1000.0);
-    
+
     noLoop();
   }
 

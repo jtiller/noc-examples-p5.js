@@ -13,7 +13,7 @@
 //      -- mutate DNA
 
 function newChar() {
-  let c = floor(random(63, 122));
+  let c = floor(random(63, 123));
   if (c === 63) c = 32;
   if (c === 64) c = 46;
 
@@ -45,7 +45,7 @@ class DNA {
       }
     }
     this.fitness = score / target.length;
-    this.fitness = pow(this.fitness,2);
+    this.fitness = pow(this.fitness,3);
   }
 
   // Crossover
